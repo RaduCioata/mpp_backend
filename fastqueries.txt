@@ -1,0 +1,4 @@
+ALTER TABLE users ADD INDEX idx_name (name);
+ALTER TABLE users ADD INDEX idx_email (email);
+ALTER TABLE users ADD INDEX idx_type (type);
+ALTER TABLE users ADD INDEX idx_created_at (created_at);
